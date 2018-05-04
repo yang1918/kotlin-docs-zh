@@ -49,7 +49,7 @@ fun foo() {
 class C {
     // Private function, so the return type is the annoymouse object type
     private fun foo() = object {
-        val x: String "x"
+        val x: String = "x"
     }
 
     // Public function, so the return type is Any
@@ -85,7 +85,7 @@ fun coutClicks(window: JComponent) {
 ```
 
 ## 对象声明
-单例模式是一个非常实用的设计模式，Kotlin 继 Scale 之后让声明一个单例变得很容易：
+单例模式是一个非常实用的设计模式，Kotlin 继 Scala 之后让声明一个单例变得很容易：
 
 ```kotlin
 object DataProviderManager {
